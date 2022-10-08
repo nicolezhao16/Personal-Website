@@ -17,28 +17,78 @@ p {
 img {
     width: 150px;
     height: 150px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
-    border: 2px solid black;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .introduction-container {
     margin-top: 60px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 40px;
+    gap: 80px;
+
+}
+
+.introduction-name h1{
+    font-size: 80px;
+    font-weight: 900;
 }
 
 .introduction-header {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
-.introduction-name {
-    font-size: 48px;
-    font-weight: 900;
+
+
+.introduction-text {
+    margin-top: 10px;
 }
 
+.work-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 60 px;
+
+}
+
+.work-header h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.work-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.podcasts {
+    background: #FFFFFF;
+    padding: 30px;
+    width: 390px;
+    border-radius: 10px;
+}
+
+.sports-analytics {
+    background: #FFFFFF;
+    padding: 30px;
+    width: 390px;
+    border-radius: 10px;
+}
 
 
 
