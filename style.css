@@ -23,10 +23,23 @@ img {
 }
 
 .introduction-container {
+    margin-top: 60px;
     display: flex;
     justify-content: center;
     gap: 40px;
 }
+
+.introduction-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.introduction-name {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+
 
 
 
